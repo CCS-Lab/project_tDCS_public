@@ -1,4 +1,5 @@
 //m1
+//codes from hBayesDM gng_m3.stan
 data {
   int<lower=1> N;
   int<lower=1> T;
@@ -41,7 +42,6 @@ transformed parameters {
 }
 
 model {
-// gng_m4: RW(rew/pun) + noise + bias + pi model (M5 in Cavanagh et al 2013 J Neuro)
   // hyper parameters
   mu_pr[1]  ~ normal(0, 1.0);
   mu_pr[2]  ~ normal(0, 1.0);
