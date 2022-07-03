@@ -9,8 +9,7 @@ library(stringr)
 set.seed(123)
 
 # Set work dir and data dir
-GITDIR = '/home/kimhj9502/Project/project_tDCS_public'
-# PATH/TO/YOUR/GIT/project_tDCS_public
+GITDIR = 'PATH/TO/YOUR/GIT/project_tDCS_public'
 setwd(GITDIR)
 
 # Load data
@@ -142,7 +141,6 @@ fit_m3_anode <- sampling(m3, data = dataList_anode, iter = 4000, warmup = 2000,
 # Save output
 save(fit_m1_sham, fit_m2_sham, fit_m3_sham,
      fit_m1_anode, fit_m2_anode, fit_m3_anode, 
-     file ='/data2/project_BRL/project_tDCS/behav/modeling/fit_RData/fit_tdcs_public.RData')
-     # PATH/TO/YOUR/SAVE/project_tDCS_public
+     file ='PATH/TO/YOUR/SAVE/project_tDCS_public')
 
 

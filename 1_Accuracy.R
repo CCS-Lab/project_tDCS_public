@@ -11,8 +11,7 @@ library(ggpubr)
 set.seed(123)
 
 # Set work dir and data dir
-GITDIR = '/home/kimhj9502/Project/project_tDCS_public'
-# PATH/TO/YOUR/GIT/project_tDCS_public
+GITDIR = 'PATH/TO/YOUR/GIT/project_tDCS_public'
 setwd(GITDIR)
 
 # Load data
