@@ -138,3 +138,4 @@ ggplot(data = data_subj_all, aes(y = pavBias_pun, x = tdcs, fill = 'pp')) +
                      title = element_text(size = 12)) +
   ggtitle(str_glue("Pavlovian bias (punish) (Sham N = {n_sham}, Anode N = {n_anode})")) +
   theme_classic2() + scale_fill_brewer(palette="Set3") 
+

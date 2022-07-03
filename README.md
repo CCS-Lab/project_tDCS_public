@@ -4,4 +4,4 @@ tDCS Pavlovian bias
 
 * `1_Accuracy`: Behavioral analysis and plotting
 * `2_Fit_model`: Fit models using Rstan codes (Hierarchical Bayesian Analysis)
-* `3_Plot_model`: Compare models and Plot model results
+* `3_Plot_model`: Compare models and plot model results
